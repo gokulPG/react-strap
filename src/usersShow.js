@@ -35,7 +35,7 @@ class UserShow extends React.Component{
                   isOpen={this.props.modal}
                   onClick={this.handle}
                   className={this.props.className}>
-                    <ModalHeader> User Details </ModalHeader>
+                    <ModalHeader> User-Details </ModalHeader>
                     <ModalBody>
                         <div>
                             <h2>{this.state.user.name}</h2>
